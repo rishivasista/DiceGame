@@ -1,0 +1,78 @@
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster";
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+h2 {
+  visibility: hidden;
+}
+p {
+  color:  #4ECCA3;
+  font-family: "Indie Flower";
+  font-size: 2rem;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: "Indie Flower";
+}
+/* Containers  */
+.container {
+  width: 70%;
+  margin: auto;
+  text-align : center;
+}
+
+/* Dice Section */
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+
+@media (max-width: 1080px) {
+
+  h1 {
+    font-size: 12rem;
+  }
+
+  h2 {
+    visibility: visible;
+    font-family: "Lobster";
+    text-shadow: 5px 0 #232931;
+    font-size: 3rem;
+    color: #4ECCA3;
+  }
+
+  p {
+    font-size: 5rem;
+    padding-top: 30%;
+    display: block;
+  }
+
+  img {
+   width: 110%;
+   padding: 0 20%;
+  }
+
+  .container {
+    width: 70%;
+
+  }
+
+  footer {
+    font-size: 4rem;
+  }
+}
